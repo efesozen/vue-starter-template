@@ -114,6 +114,17 @@ For detailed documentation, see the `/docs` directory:
 - [Mock API](./docs/MOCK_API.md)
 - [Extending the Template](./docs/EXTENDING.md)
 
+## Deployment
+
+This template is configured for GitHub Pages deployment. When you push to the main branch, GitHub Actions will automatically build and deploy the site to GitHub Pages.
+
+To enable GitHub Pages in your repository:
+1. Go to your repository settings
+2. Navigate to the "Pages" section
+3. Under "Build and deployment", select "GitHub Actions" as the source
+
+The site will be available at `https://[username].github.io/vue-starter-template/`
+
 ## License
 
 MIT

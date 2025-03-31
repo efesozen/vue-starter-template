@@ -8,6 +8,8 @@ export default defineNuxtConfig({
     'nuxt-lucide-icons',
   ],
   app: {
+    baseURL: process.env.GITHUB_ACTIONS ? '/vue-starter-template/' : '/',
+    buildAssetsDir: 'assets',
     head: {
       title: 'Nuxt 3 Starter Template',
       meta: [
